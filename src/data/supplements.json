@@ -137,6 +137,17 @@
   },
   {
     "id": 14,
+    "name": "Glutathione (Entity LumeniX)",
+    "dose": "100 mg",
+    "schedule": "1 sublingual wafer daily",
+    "rx": false,
+    "description": "Reduced glutathione delivered as a WaferiX sublingual wafer (Entity Health). Dissolves under the tongue; company claims nanoparticle delivery that bypasses the gut. Marketed mainly for skin (gloss, elasticity, fine lines) plus antioxidant/liver support.",
+    "primaryProponent": "Entity Health (product trial), not Attia/Patrick/Sinclair. Rhonda Patrick is the nearest of Douglas's three sources, but she raises glutathione with sulforaphane rather than oral GSH.",
+    "why": "Company-sponsored skin trial used 200 mg/day for 4 weeks then 100 mg maintenance — his 100 mg is the maintenance dose. Oral glutathione capsules are poorly absorbed; the wafer is the claimed workaround.",
+    "notes": "Not a staple of Attia, Patrick, or Sinclair. Closest related longevity approaches are sulforaphane (Patrick) and GlyNAC (glycine + NAC)."
+  },
+  {
+    "id": 15,
     "name": "Spermidine",
     "dose": "dose unknown",
     "schedule": "not confirmed",
