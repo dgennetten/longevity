@@ -1,5 +1,6 @@
 import supplementsData from './data/supplements.json';
 import type { Supplement } from './types/Supplement';
+import AdminGuard from './components/AdminGuard';
 
 const supplements = supplementsData as Supplement[];
 
@@ -8,7 +9,8 @@ function App() {
   const consideringSupplements = supplements.filter(s => s.considering);
 
   return (
-    <div className="min-h-screen bg-neutral-50 text-neutral-900">
+    <AdminGuard>
+      <div className="min-h-screen bg-neutral-50 text-neutral-900">
       {/* Header */}
       <header className="bg-white border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -213,7 +215,8 @@ function App() {
           </p>
         </div>
       </footer>
-    </div>
+      </div>
+    </AdminGuard>
   );
 }
 

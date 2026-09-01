@@ -4,13 +4,15 @@ A personal supplement record site for K. Douglas Gennetten.
 
 **Live site:** https://longevity.gennetten.org
 
+**Access:** Protected by PIN authentication (same mechanism as gennetten.org/edit)
+
 ---
 
 ## Purpose
 
 This is a clean, personal record of supplements taken, designed to:
 - Help remember what is being taken and why
-- Share a public record with others
+- Share a private record with authorized viewers
 - Maintain an easy-to-edit data source
 
 **Important:** This is NOT medical advice and NOT a protocol for anyone else. This is one person's personal record.
@@ -23,7 +25,41 @@ This is a clean, personal record of supplements taken, designed to:
 - **React 19** - UI library
 - **TypeScript** - Type safety
 - **Tailwind CSS v4** - Styling
+- **PIN Authentication** - Client-side access control (same pattern as gennetten.org/edit)
 - Responsive design (table on desktop, cards on mobile)
+
+---
+
+## Authentication
+
+The site is protected by a PIN-based authentication system. All routes, including the homepage, require authentication.
+
+### Setting the PIN
+
+The PIN is configured via the `VITE_ADMIN_PASSWORD` environment variable.
+
+1. Copy `.env.example` to `.env`:
+
+```bash
+cp .env.example .env
+```
+
+2. Edit `.env` and set your PIN:
+
+```
+VITE_ADMIN_PASSWORD=your_pin_here
+```
+
+3. For production builds, create `.env.production` with the same variable.
+
+**Important:** The `.env` and `.env.production` files are gitignored for security. Never commit them to the repository.
+
+### How It Works
+
+- Client-side authentication using session storage (default) or local storage (if "Remember this device" is checked)
+- Same mechanism as gennetten.org/edit AdminGuard
+- Session tokens are base64-encoded credentials
+- No server-side validation (suitable for personal/trusted use)
 
 ---
 
@@ -49,11 +85,13 @@ The site will be available at `http://localhost:5173` (or another port if 5173 i
 
 ### Build for Production
 
+**Important:** Set `VITE_ADMIN_PASSWORD` before building.
+
 ```bash
 npm run build
 ```
 
-This creates an optimized production build in the `dist/` folder.
+This creates an optimized production build in the `dist/` folder with the PIN authentication baked in.
 
 ### Preview Production Build Locally
 
@@ -112,6 +150,8 @@ Each supplement has these fields:
 
 DreamHost serves static files via Apache. You'll upload the contents of the `dist/` folder.
 
+**Before deploying:** Ensure `VITE_ADMIN_PASSWORD` is set in `.env.production` to match the desired PIN for the live site.
+
 ### Step-by-Step Deployment
 
 #### 1. Build the Site
@@ -120,7 +160,7 @@ DreamHost serves static files via Apache. You'll upload the contents of the `dis
 npm run build
 ```
 
-This creates a `dist/` folder with all static assets.
+This reads `.env.production` and bakes the PIN into the static bundle.
 
 #### 2. What's in `dist/`
 
