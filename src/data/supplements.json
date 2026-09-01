@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Urolithin A",
+    "dose": "1000 mg",
+    "schedule": "daily",
+    "rx": false,
+    "description": "Gut metabolite (Mitopure-class) supporting mitophagy",
+    "primaryProponent": "Rhonda Patrick (FoundMyFitness)",
+    "why": "She takes 500–1000 mg with food; older-adult trials often use 1000 mg."
+  },
+  {
+    "id": 2,
+    "name": "Nattokinase",
+    "dose": "1 capsule",
+    "schedule": "daily, FU unknown",
+    "rx": false,
+    "description": "Enzyme from natto; fibrinolysis",
+    "primaryProponent": "David Sinclair",
+    "why": "March 2026 he said ≥8,000–10,000 FU.",
+    "notes": "Dose in FU not given."
+  },
+  {
+    "id": 3,
+    "name": "Curcumin phytosome",
+    "dose": "1000 mg",
+    "schedule": "every other day",
+    "rx": false,
+    "description": "Bioavailable curcumin (Meriva-style)",
+    "primaryProponent": "Peter Attia",
+    "why": "Inflammation / possible cognition; phytosome used in older-adult joint/muscle studies.",
+    "notes": "Adjacent; he cites Theracurmin more than phytosome. Schedule was uncertain."
+  },
+  {
+    "id": 4,
+    "name": "Metformin",
+    "dose": "850 mg",
+    "schedule": "daily",
+    "rx": true,
+    "description": "AMPK/glucose diabetes drug used off-label in longevity",
+    "primaryProponent": "David Sinclair",
+    "why": "He currently speaks of 1 g, sometimes cycling with berberine. Attia stopped metformin."
+  },
+  {
+    "id": 5,
+    "name": "Rapamycin (sirolimus)",
+    "dose": "5 mg",
+    "schedule": "once weekly",
+    "rx": true,
+    "description": "mTOR inhibitor",
+    "primaryProponent": "Peter Attia",
+    "why": "That was Attia's personal 5–8 mg weekly; he stopped in 2025 because of mouth sores; still calls it promising.",
+    "notes": "Historical."
+  },
+  {
+    "id": 6,
+    "name": "Lithium",
+    "dose": "1000 mcg (1 mg)",
+    "schedule": "every other day",
+    "rx": false,
+    "description": "Microdose (orotate-range), not psychiatric lithium carbonate",
+    "primaryProponent": "Bruce Yankner (2025 Nature) / Forlenza MCI work",
+    "why": "Not Attia/Patrick/Sinclair. Small human microdose AD trial used 300 mcg/day."
+  },
+  {
+    "id": 7,
+    "name": "Vitamin B12",
+    "dose": "dose unknown",
+    "schedule": "",
+    "rx": false,
+    "description": "Cobalamin; absorption falls with age",
+    "primaryProponent": "Peter Attia",
+    "why": "He uses methyl B12 for homocysteine. Centrum already supplies 25 mcg cyanocobalamin."
+  },
+  {
+    "id": 8,
+    "name": "Centrum Minis 50+",
+    "dose": "1",
+    "schedule": "daily",
+    "rx": false,
+    "description": "Multivitamin for 50+",
+    "primaryProponent": "Rhonda Patrick",
+    "why": "She ranks a multi in her top 5; COSMOS cognition signal in older adults.",
+    "notes": "Centrum Minis serving is often 2 tablets."
+  },
+  {
+    "id": 9,
+    "name": "Omega-3 fish oil",
+    "dose": "4080 mg",
+    "schedule": "twice daily",
+    "rx": false,
+    "description": "Marine EPA+DHA",
+    "primaryProponent": "Peter Attia and Rhonda Patrick",
+    "why": "They treat to an RBC omega-3 index ~10–12%.",
+    "notes": "Oil-weight; EPA/DHA split unknown. Oil-weight ≠ EPA+DHA grams."
+  },
+  {
+    "id": 10,
+    "name": "Tadalafil",
+    "dose": "as needed",
+    "schedule": "",
+    "rx": true,
+    "description": "PDE5 inhibitor (Cialis)",
+    "primaryProponent": "Peter Attia / urology literature",
+    "why": "Longevity talk is usually 2.5–5 mg daily for endothelium; as-needed is the ED label."
+  },
+  {
+    "id": 11,
+    "name": "SlowMag",
+    "dose": "1",
+    "schedule": "daily",
+    "rx": false,
+    "description": "Magnesium chloride",
+    "primaryProponent": "Peter Attia",
+    "why": "His preferred chloride form; his total elemental magnesium is much higher (~1 g from several forms)."
+  },
+  {
+    "id": 12,
+    "name": "Low-dose aspirin",
+    "dose": "81 mg",
+    "schedule": "daily",
+    "rx": false,
+    "description": "Antiplatelet",
+    "primaryProponent": "David Sinclair",
+    "why": "Lifespan 83 mg; Attia lukewarm. Not USPSTF advice for starting after age 60."
+  },
+  {
+    "id": 13,
+    "name": "Acarbose",
+    "dose": "50 mg",
+    "schedule": "daily",
+    "rx": true,
+    "description": "Alpha-glucosidase inhibitor (take with meals)",
+    "primaryProponent": "NIA Interventions Testing Program (Strong/Harrison/Miller)",
+    "why": "Best-studied rapamycin add-on in mice.",
+    "notes": "Not Attia/Patrick/Sinclair."
+  },
+  {
+    "id": 14,
+    "name": "Spermidine",
+    "dose": "dose unknown",
+    "schedule": "not confirmed",
+    "rx": false,
+    "description": "Autophagy polyamine",
+    "primaryProponent": "Frank Madeo; Sinclair has discussed it",
+    "why": "NOT a metformin alternative.",
+    "considering": true
+  }
+]
