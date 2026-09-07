@@ -148,9 +148,41 @@ Each supplement has these fields:
 
 ## Deployment to DreamHost
 
-DreamHost serves static files via Apache. You'll upload the contents of the `dist/` folder.
+### Automated SFTP Deployment
 
-**Before deploying:** Ensure `VITE_ADMIN_PASSWORD` is set in `.env.production` to match the desired PIN for the live site.
+The easiest way to deploy is using the automated SFTP script:
+
+**Setup (one-time):**
+
+1. Copy the environment template:
+```bash
+cp .env.example .env
+```
+
+2. Edit `.env` and add your credentials:
+```
+VITE_ADMIN_PASSWORD=752192
+SFTP_HOST=gennetten.org
+SFTP_USERNAME=dgennetten
+SFTP_PASSWORD=your_sftp_password_here
+```
+
+**Deploy:**
+
+```bash
+npm run build-and-deploy
+```
+
+This will:
+- Build the production bundle
+- Upload all files to `/home/dgennetten/longevity.gennetten.org/` via SFTP
+- Show progress for each uploaded file
+
+The remote path is configured in `deploy-remote-path.js`.
+
+### Manual Deployment
+
+If you prefer manual deployment, you can upload via FTP/SFTP client:
 
 ### Step-by-Step Deployment
 
