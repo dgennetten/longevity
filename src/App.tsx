@@ -21,6 +21,9 @@ function App() {
             This is K. Douglas Gennetten's personal supplement record for Fort Collins.
             This is not medical advice and not a protocol for anyone else.
           </p>
+          <p className="mt-1 text-xs text-neutral-500">
+            Primary sources: Peter Attia, Rhonda Patrick, David Sinclair, Peter Diamandis
+          </p>
         </div>
       </header>
 

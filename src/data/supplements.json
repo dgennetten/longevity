@@ -156,5 +156,17 @@
     "primaryProponent": "Frank Madeo; Sinclair has discussed it",
     "why": "NOT a metformin alternative.",
     "considering": true
+  },
+  {
+    "id": "glp1-tirzepatide-diamandis",
+    "name": "Tirzepatide (GLP-1 / GIP agonist) — microdose",
+    "dose": "Microdose (milligrams not published)",
+    "schedule": "Once weekly (Sunday only, per Diamandis)",
+    "rx": true,
+    "description": "Dual GIP/GLP-1 receptor agonist (Mounjaro/Zepbound class). Diamandis lists a Sunday-only microdose in his April 2026 MetaTrends protocol (Abundance Summit notes with Sinclair). Beyond weight loss he cites heart/brain signals; SELECT/FLOW outcome evidence is at full therapeutic doses, not microdose.",
+    "primaryProponent": "Peter Diamandis",
+    "why": "Considering for longevity/metabolic effects at a microdose, not full obesity titration. Exact mg not stated in Diamandis's public 2026 writeup — leave dose as microdose/unpublished until Douglas supplies a number.",
+    "notes": "Apr 21 2026 MetaTrends: 'Tirzepatide (microdose): Sunday only'. Sinclair discussed the space with him; Attia discusses GLP-1s clinically but is not the source of this microdose schedule. Rx. Muscle-loss risk if appetite drops without protein + resistance training. Not medical advice.",
+    "considering": true
   }
 ]
