@@ -148,6 +148,28 @@
   },
   {
     "id": 15,
+    "name": "Neuro-Mag",
+    "dose": "1 capsule",
+    "schedule": "once every night",
+    "rx": false,
+    "description": "Magnesium L-threonate (Magtein), the form studied for raising cerebrospinal magnesium. Douglas also takes SlowMag (chloride) by day; this is a second magnesium form at night.",
+    "primaryProponent": "Peter Attia",
+    "why": "Night magnesium in the Magtein form Attia takes; marketed for memory/brain Mg. Complements daytime SlowMag.",
+    "notes": "Drive #276: L-threonate at night as part of ~1 g elemental magnesium. Magtein/Liu for the form. Patrick uses glycinate instead."
+  },
+  {
+    "id": 16,
+    "name": "Glycine",
+    "dose": "1000 mg",
+    "schedule": "once every night",
+    "rx": false,
+    "description": "Amino acid used at bedtime for sleep; also a collagen building block. 1 g is below the ~3 g dose in Inagawa/Bannai sleep studies. Not the high-dose GlyNAC protocol.",
+    "primaryProponent": "Peter Attia",
+    "why": "Sleep support at a modest 1 g nightly.",
+    "notes": "Closest of Douglas's preferred sources; bedtime glycine appears in later stack notes. Patrick's night item is myo-inositol."
+  },
+  {
+    "id": 17,
     "name": "Spermidine",
     "dose": "dose unknown",
     "schedule": "not confirmed",
