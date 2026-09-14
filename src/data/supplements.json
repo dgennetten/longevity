@@ -211,6 +211,7 @@
     "description": "Plant alkaloid used as a metformin alternative/substitute; AMPK activator with glucose-regulating properties",
     "primaryProponent": "David Sinclair",
     "why": "Sinclair cycles berberine with metformin; both activate AMPK pathways. Berberine used as a non-prescription alternative to metformin for metabolic/longevity purposes.",
-    "notes": "Metformin substitute. Typical berberine doses in studies range 900-1500 mg/day, but exact dose TBD per Douglas's protocol. See metformin entry (id 4) for context."
+    "notes": "Metformin substitute. Typical berberine doses in studies range 900-1500 mg/day, but exact dose TBD per Douglas's protocol. See metformin entry (id 4) for context.",
+    "considering": true
   }
 ]
