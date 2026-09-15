@@ -213,5 +213,16 @@
     "why": "Sinclair cycles berberine with metformin; both activate AMPK pathways. Berberine used as a non-prescription alternative to metformin for metabolic/longevity purposes.",
     "notes": "Metformin substitute. Typical berberine doses in studies range 900-1500 mg/day, but exact dose TBD per Douglas's protocol. See metformin entry (id 4) for context.",
     "considering": true
+  },
+  {
+    "id": 20,
+    "name": "Fisetin",
+    "dose": "6 capsules",
+    "schedule": "once a month",
+    "rx": false,
+    "description": "Flavonoid senolytic used in pulsed monthly dosing",
+    "primaryProponent": "David Sinclair",
+    "why": "Sinclair discusses fisetin as senolytic; ~500 mg / periodic pulsed use reported; Douglas protocol is 6 capsules once a month.",
+    "notes": "Capsule mg TBD until brand known; not medical advice."
   }
 ]
