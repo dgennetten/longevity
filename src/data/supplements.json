@@ -56,11 +56,11 @@
     "id": 6,
     "name": "Lithium",
     "dose": "1000 mcg (1 mg)",
-    "schedule": "every other day",
+    "schedule": "daily",
     "rx": false,
-    "description": "Microdose (orotate-range), not psychiatric lithium carbonate",
+    "description": "Life Extension product — 1000 mcg elemental lithium from lithium orotate (not psychiatric lithium carbonate)",
     "primaryProponent": "Bruce Yankner (2025 Nature) / Forlenza MCI work",
-    "why": "Not Attia/Patrick/Sinclair. Small human microdose AD trial used 300 mcg/day."
+    "why": "Small human microdose AD trial used 300 mcg/day. Attia discusses speculative low-dose orotate but Patrick has been cautious."
   },
   {
     "id": 7,
