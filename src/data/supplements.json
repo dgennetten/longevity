@@ -170,6 +170,17 @@
   },
   {
     "id": 17,
+    "name": "Creatine",
+    "dose": "5–15 g",
+    "schedule": "daily",
+    "rx": false,
+    "description": "Creatine monohydrate; strength adjunct with resistance training; possible cognitive support under stress and aging.",
+    "primaryProponent": "Peter Attia and Rhonda Patrick",
+    "why": "Drive #369 and Patrick discuss ~5 g/day; Diamandis also lists ~5 g/day. Human RCTs and meta-analyses in older adults show modest strength gains when combined with resistance training.",
+    "notes": "Douglas takes 5–15 g daily."
+  },
+  {
+    "id": 18,
     "name": "Spermidine",
     "dose": "dose unknown",
     "schedule": "not confirmed",
