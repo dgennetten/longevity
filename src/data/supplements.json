@@ -224,5 +224,16 @@
     "primaryProponent": "David Sinclair",
     "why": "Sinclair discusses fisetin as senolytic; ~500 mg / periodic pulsed use reported; Douglas protocol is 6 capsules once a month.",
     "notes": "Capsule mg TBD until brand known; not medical advice."
+  },
+  {
+    "id": 21,
+    "name": "Sauna",
+    "dose": "185°F, ~20 min per session",
+    "schedule": "3 times per week",
+    "rx": false,
+    "description": "Sauna bathing (heat exposure); a lifestyle practice rather than a supplement",
+    "primaryProponent": "Rhonda Patrick (FoundMyFitness); Peter Attia and David Sinclair also support it",
+    "why": "Finnish KIHD cohort studies (Laukkanen et al.): 4–7 sessions/week at ~174°F+ for ~20 min linked to ~40% lower all-cause mortality, plus lower cardiovascular death and dementia, vs once a week; 2–3x/week also showed benefit.",
+    "notes": "A cold plunge after sauna is fine, but avoid cold immersion within a few hours after strength training because it blunts hypertrophy (Patrick, Attia). Not medical advice."
   }
 ]
