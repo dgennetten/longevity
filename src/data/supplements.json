@@ -107,7 +107,7 @@
   {
     "id": 11,
     "name": "SlowMag",
-    "dose": "1",
+    "dose": "2 tablets",
     "schedule": "daily",
     "rx": false,
     "description": "Magnesium chloride",
