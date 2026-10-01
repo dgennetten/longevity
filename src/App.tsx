@@ -67,7 +67,7 @@ function App() {
                       )}
                     </td>
                     <td className="px-4 py-4 text-neutral-700">{supplement.primaryProponent}</td>
-                    <td className="px-4 py-4 text-neutral-600 text-sm">{supplement.why}</td>
+                    <td className="px-4 py-4 text-neutral-600 text-sm" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</td>
                   </tr>
                 ))}
               </tbody>
@@ -115,7 +115,7 @@ function App() {
                 
                 <div>
                   <span className="font-medium text-neutral-700">Why:</span>{' '}
-                  <span className="text-neutral-600">{supplement.why}</span>
+                  <span className="text-neutral-600" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</span>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@ function App() {
                         </td>
                         <td className="px-4 py-4 text-neutral-700">{supplement.description}</td>
                         <td className="px-4 py-4 text-neutral-700">{supplement.primaryProponent}</td>
-                        <td className="px-4 py-4 text-neutral-600 text-sm">{supplement.why}</td>
+                        <td className="px-4 py-4 text-neutral-600 text-sm" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -192,7 +192,7 @@ function App() {
                     
                     <div>
                       <span className="font-medium text-neutral-700">Why:</span>{' '}
-                      <span className="text-neutral-600">{supplement.why}</span>
+                      <span className="text-neutral-600" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</span>
                     </div>
                   </div>
                 </div>

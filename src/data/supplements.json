@@ -65,12 +65,12 @@
   {
     "id": 7,
     "name": "Vitamin B12",
-    "dose": "dose unknown",
-    "schedule": "",
+    "dose": "1 mg (1000 mcg)",
+    "schedule": "every other day",
     "rx": false,
     "description": "Cobalamin; absorption falls with age",
     "primaryProponent": "Peter Attia",
-    "why": "He uses methyl B12 for homocysteine. Centrum already supplies 25 mcg cyanocobalamin."
+    "why": "Core Reasons to Supplement at 70\n• Reduced Stomach Acid (Atrophic Gastritis): Up to 30% of adults over 50—and even more by age 70—develop atrophic gastritis or reduced stomach acid secretion. Stomach acid and pepsin are necessary to separate B12 from protein in foods like meat and dairy. Synthetic B12 in supplements or fortified foods does not require stomach acid for initial extraction, making it far easier to absorb.\n• Protecting Nerve Health & Preventing Neuropathy: B12 is essential for maintaining the myelin sheath that insulates nerves. A chronic deficiency can cause peripheral neuropathy—leading to tingling, numbness, balance issues, or weakness in the hands and feet.\n• Preserving Cognitive Function: Low B12 levels are linked to memory loss, confusion, and cognitive decline that can mimic or exacerbate symptoms of dementia. Maintaining adequate levels supports overall neurological health.\n• Preventing Megaloblastic Anemia: B12 plays a critical role in producing healthy red blood cells. Without enough B12, the body produces abnormally large, immature red blood cells that cannot carry oxygen efficiently, resulting in chronic fatigue, shortness of breath, and weakness.\n• Common Medication Interactions: Older adults are frequently prescribed medications that further reduce B12 absorption:\n    ◦ Metformin (for type 2 diabetes) interferes with B12 absorption in the gut.\n    ◦ Proton Pump Inhibitors (PPIs) and H2 Blockers (like omeprazole or famotidine for acid reflux) reduce stomach acid, making food-bound B12 extraction even harder.\n\nRecommended Dosage & Types\n• Standard Daily Amount: The Recommended Dietary Allowance (RDA) for adults is 2.4 mcg per day, but supplement doses for older adults are often higher (ranging from 100 mcg to 1,000 mcg) because only a tiny fraction of synthetic B12 is absorbed via passive diffusion when stomach intrinsic factor is diminished.\n• Forms: Oral supplements (cyanocobalamin or methylcobalamin), sublingual drops/melts, or fortified foods (cereals, plant milks) are generally sufficient for most people. If a severe deficiency or pernicious anemia is present, a physician may prescribe high-dose oral therapy or B12 injections."
   },
   {
     "id": 8,
