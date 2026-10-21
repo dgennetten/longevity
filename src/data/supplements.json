@@ -235,5 +235,16 @@
     "primaryProponent": "Rhonda Patrick (FoundMyFitness); Peter Attia and David Sinclair also support it",
     "why": "Finnish KIHD cohort studies (Laukkanen et al.): 4–7 sessions/week at ~174°F+ for ~20 min linked to ~40% lower all-cause mortality, plus lower cardiovascular death and dementia, vs once a week; 2–3x/week also showed benefit.",
     "notes": "A cold plunge after sauna is fine, but avoid cold immersion within a few hours after strength training because it blunts hypertrophy (Patrick, Attia). Not medical advice."
+  },
+  {
+    "id": 22,
+    "name": "Pomegranate juice",
+    "dose": "~50 mL (about 2 oz)",
+    "schedule": "daily",
+    "rx": false,
+    "description": "100% pure pomegranate juice (no added sugar); cardiovascular/arterial health support and urolithin A precursor (ellagitannins)",
+    "primaryProponent": "Sayer Ji (GreenMedInfo) popularized; source study Michael Aviram",
+    "why": "Cardiovascular/arterial health — reduces LDL oxidation, raises PON1, may lower blood pressure. Aviram et al. 2004 (Clinical Nutrition) small trial in 65–75 y/o carotid stenosis patients showed carotid IMT regression (~30% at 1 yr) vs progression in controls; a larger 2009 Am J Cardiol trial (Davidson) found no overall IMT benefit except in high-oxidative-stress subgroup. Also a urolithin A precursor (ellagitannins). Evidence level: small human RCTs, mixed.",
+    "notes": "Watch sugar (~13 g per 50 mL) given glucose focus. Not medical advice."
   }
 ]
