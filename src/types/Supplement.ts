@@ -9,4 +9,5 @@ export interface Supplement {
   why: string;
   notes?: string;
   considering?: boolean;
+  stopped?: boolean;
 }

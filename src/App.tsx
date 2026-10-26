@@ -5,8 +5,9 @@ import AdminGuard from './components/AdminGuard';
 const supplements = supplementsData as Supplement[];
 
 function App() {
-  const confirmedSupplements = supplements.filter(s => !s.considering);
+  const confirmedSupplements = supplements.filter(s => !s.considering && !s.stopped);
   const consideringSupplements = supplements.filter(s => s.considering);
+  const stoppedSupplements = supplements.filter(s => s.stopped);
 
   return (
     <AdminGuard>
@@ -183,6 +184,109 @@ function App() {
                     <div>
                       <span className="font-medium text-neutral-700">What it is:</span>{' '}
                       <span className="text-neutral-600">{supplement.description}</span>
+                    </div>
+                    
+                    <div>
+                      <span className="font-medium text-neutral-700">Primary Proponent:</span>{' '}
+                      <span className="text-neutral-600">{supplement.primaryProponent}</span>
+                    </div>
+                    
+                    <div>
+                      <span className="font-medium text-neutral-700">Why:</span>{' '}
+                      <span className="text-neutral-600" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* No Longer Taking Section */}
+        {stoppedSupplements.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-lg font-medium text-neutral-700 mb-4 px-1">
+              No Longer Taking
+            </h2>
+            
+            {/* Desktop Table */}
+            <div className="hidden lg:block bg-neutral-100 rounded-lg shadow-sm border border-neutral-300 overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead className="bg-neutral-200 border-b border-neutral-300">
+                    <tr>
+                      <th className="px-4 py-3 text-left font-semibold text-neutral-700">Name</th>
+                      <th className="px-4 py-3 text-left font-semibold text-neutral-700">Dose / Schedule</th>
+                      <th className="px-4 py-3 text-left font-semibold text-neutral-700">What it is</th>
+                      <th className="px-4 py-3 text-left font-semibold text-neutral-700">Primary Proponent</th>
+                      <th className="px-4 py-3 text-left font-semibold text-neutral-700">Why</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-neutral-300">
+                    {stoppedSupplements.map((supplement) => (
+                      <tr key={supplement.id} className="hover:bg-neutral-200/50 transition-colors">
+                        <td className="px-4 py-4">
+                          <div className="font-medium text-neutral-900">
+                            {supplement.name}
+                            {supplement.rx && (
+                              <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
+                                Rx
+                              </span>
+                            )}
+                          </div>
+                        </td>
+                        <td className="px-4 py-4 text-neutral-700">
+                          <div>{supplement.dose}</div>
+                          {supplement.schedule && (
+                            <div className="text-xs text-neutral-500 mt-0.5">{supplement.schedule}</div>
+                          )}
+                        </td>
+                        <td className="px-4 py-4 text-neutral-700">
+                          <div>{supplement.description}</div>
+                          {supplement.notes && (
+                            <div className="text-xs text-neutral-500 mt-1 italic">{supplement.notes}</div>
+                          )}
+                        </td>
+                        <td className="px-4 py-4 text-neutral-700">{supplement.primaryProponent}</td>
+                        <td className="px-4 py-4 text-neutral-600 text-sm" style={{ whiteSpace: 'pre-wrap' }}>{supplement.why}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Mobile Card */}
+            <div className="lg:hidden space-y-4">
+              {stoppedSupplements.map((supplement) => (
+                <div
+                  key={supplement.id}
+                  className="bg-neutral-100 rounded-lg shadow-sm border border-neutral-300 p-4"
+                >
+                  <div className="flex items-start justify-between mb-3">
+                    <h3 className="font-semibold text-lg text-neutral-900">{supplement.name}</h3>
+                    {supplement.rx && (
+                      <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
+                        Rx
+                      </span>
+                    )}
+                  </div>
+                  
+                  <div className="space-y-2 text-sm">
+                    <div>
+                      <span className="font-medium text-neutral-700">Dose:</span>{' '}
+                      <span className="text-neutral-600">{supplement.dose}</span>
+                      {supplement.schedule && (
+                        <span className="text-neutral-500"> • {supplement.schedule}</span>
+                      )}
+                    </div>
+                    
+                    <div>
+                      <span className="font-medium text-neutral-700">What it is:</span>{' '}
+                      <span className="text-neutral-600">{supplement.description}</span>
+                      {supplement.notes && (
+                        <div className="text-xs text-neutral-500 mt-1 italic">{supplement.notes}</div>
+                      )}
                     </div>
                     
                     <div>
