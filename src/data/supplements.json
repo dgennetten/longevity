@@ -39,7 +39,9 @@
     "rx": true,
     "description": "AMPK/glucose diabetes drug used off-label in longevity",
     "primaryProponent": "David Sinclair",
-    "why": "He currently speaks of 1 g, sometimes cycling with berberine. Attia stopped metformin."
+    "why": "He currently speaks of 1 g, sometimes cycling with berberine. Attia stopped metformin.",
+    "notes": "Stopped Oct 2026; Peter Attia (AMA #90, Oct 2026) no longer views metformin as geroprotective in metabolically healthy people.",
+    "stopped": true
   },
   {
     "id": 5,
