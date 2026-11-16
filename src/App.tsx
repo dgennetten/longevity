@@ -53,6 +53,11 @@ function App() {
                             Rx
                           </span>
                         )}
+                        {supplement.consideringDropping && (
+                          <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-amber-100 text-amber-800">
+                            Considering dropping
+                          </span>
+                        )}
                       </div>
                     </td>
                     <td className="px-4 py-4 text-neutral-700">
@@ -65,6 +70,18 @@ function App() {
                       <div>{supplement.description}</div>
                       {supplement.notes && (
                         <div className="text-xs text-neutral-500 mt-1 italic">{supplement.notes}</div>
+                      )}
+                      {supplement.sourceLink && (
+                        <div className="text-xs mt-1">
+                          <a
+                            href={supplement.sourceLink}
+                            className="text-blue-600 hover:text-blue-700 underline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Source
+                          </a>
+                        </div>
                       )}
                     </td>
                     <td className="px-4 py-4 text-neutral-700">{supplement.primaryProponent}</td>
@@ -83,11 +100,18 @@ function App() {
               key={supplement.id}
               className="bg-white rounded-lg shadow-sm border border-neutral-200 p-4"
             >
-              <div className="flex items-start justify-between mb-3">
-                <h3 className="font-semibold text-lg text-neutral-900">{supplement.name}</h3>
-                {supplement.rx && (
-                  <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
-                    Rx
+              <div className="mb-3">
+                <div className="flex items-start justify-between mb-2">
+                  <h3 className="font-semibold text-lg text-neutral-900">{supplement.name}</h3>
+                  {supplement.rx && (
+                    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
+                      Rx
+                    </span>
+                  )}
+                </div>
+                {supplement.consideringDropping && (
+                  <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-amber-100 text-amber-800">
+                    Considering dropping
                   </span>
                 )}
               </div>
@@ -106,6 +130,18 @@ function App() {
                   <span className="text-neutral-600">{supplement.description}</span>
                   {supplement.notes && (
                     <div className="text-xs text-neutral-500 mt-1 italic">{supplement.notes}</div>
+                  )}
+                  {supplement.sourceLink && (
+                    <div className="text-xs mt-1">
+                      <a
+                        href={supplement.sourceLink}
+                        className="text-blue-600 hover:text-blue-700 underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Source
+                      </a>
+                    </div>
                   )}
                 </div>
                 

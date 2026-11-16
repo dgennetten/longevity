@@ -10,4 +10,6 @@ export interface Supplement {
   notes?: string;
   considering?: boolean;
   stopped?: boolean;
+  consideringDropping?: boolean;
+  sourceLink?: string;
 }

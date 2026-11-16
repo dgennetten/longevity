@@ -7,7 +7,10 @@
     "rx": false,
     "description": "Gut metabolite (Mitopure-class) supporting mitophagy",
     "primaryProponent": "Rhonda Patrick (FoundMyFitness)",
-    "why": "She takes 500–1000 mg with food; older-adult trials often use 1000 mg."
+    "why": "She takes 500–1000 mg with food; older-adult trials often use 1000 mg.",
+    "notes": "Considering dropping (Nov 2026): Nav Chandel on Peter Attia's The Drive #416 is skeptical — oral urolithin A is rapidly glucuronidated, free plasma levels are picogram-range, and no molecular target has been identified.",
+    "consideringDropping": true,
+    "sourceLink": "https://peterattiamd.com/navchandel2/"
   },
   {
     "id": 2,
